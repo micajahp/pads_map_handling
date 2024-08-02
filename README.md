@@ -2,9 +2,9 @@ Must maintain an un edited decrypted resource map file for checksum auth</br>
 I did not get actual ranges for the internal checksum, </br>
 only around what is usually edited and use the stock checksum for offset </br>
 eg.</br>
-    &emsp;# working map file at 0x300046 - calculated_crc = adder_offset
-    &emsp;# modded  map file calculated_crc + adder_offset = new calculated_crc 
-    &emsp;insert new calculated_crc at 0x300046 and inverse immediately after
+    &emsp;# working map file at 0x300046 - calculated_crc = adder_offset</br>
+    &emsp;# modded  map file calculated_crc + adder_offset = new calculated_crc </br>
+    &emsp;insert new calculated_crc at 0x300046 and inverse immediately after</br>
 </br>
 </br>
 </br>
