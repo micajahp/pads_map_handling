@@ -5,9 +5,9 @@ import easygui as eg
 
 if __name__ == "__main__":
 
-    y = 58989     #### 58989 for 660 platform
-                #### 58402 for V4 platform
-                #### 60213 = eaf
+    y = 58989       #### 58989 for 660 platform
+                    #### 58402 for V4 platform
+                    #### 60213 = eaf
 
     B = 3145728 
     E = 3899999

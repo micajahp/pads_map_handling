@@ -1,19 +1,26 @@
 import crcmod
-if __name__ == "__main__":
-    y = 58989     #### 58989 for 660 platform
-                #### 58402 for V4 platform
+import os
+
+def cks_do_total():
+
+    _files = []
+    _folder = os.listdir('./')
+    for fi in _folder:
+        if os.path.isfile(fi) and 'CKS' in fi:
+            _files.append(fi)
+
+    if len(_files) > 1:
+        filepath = eg.choicebox("","",_files)
+    else:
+        filepath = _files[0]
 
     B = 0
     E = 4000000
 
-    with open("./p80ead13_3DECCKS.bin", "rb") as f:
+    with open(f"./{filepath}", "rb") as f:
         byte = f.read(2)
         addr = 0
-        #if(y==58989):
-            #print("Calculating For 660 Platform")
-            
-        #if(y==58402):
-            #print("Calculating For V4 Platform")
+
         crc16_func = crcmod.mkCrcFun(0x11021, rev=True , initCrc=0x0000, xorOut=0xFFFF) #crcmod.mkCrcFun(0x11021, rev=True , initCrc=0x0000, xorOut=0xFFFF)
         Kcrc = 0                                                                               #Function For Making Writable map from source
         x = 0
@@ -25,8 +32,7 @@ if __name__ == "__main__":
             if(B<=addr<=E):
                 Kcrc= Kcrc+int.from_bytes(byte,"little")
                 Kcrc= Kcrc%65535
-                #if(Kcrc == 58989):
-                #    print(Kcrc,hex(addr))
+
             byte = f.read(1)
             addr=addr+1
 
@@ -36,6 +42,14 @@ if __name__ == "__main__":
         #print(hex(Kcrc), Kcrc)
         #Eab = Kcrc
         #Find Coefficient
+        # 4884 = HW001
+        # Num = HW002
         Kcrc=(Kcrc-4884)%65535
         
         print("CKS_DOWNLOAD ", hex(Kcrc))
+
+    print(filename[-8])
+
+
+if __name__ == "__main__":
+    cks_do_total()

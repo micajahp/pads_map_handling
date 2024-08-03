@@ -7,7 +7,7 @@ import os
 
 
 
-if __name__ == "__main__":
+def undo_encoding():
 
     _files = []
     _folder = os.listdir('./')
@@ -27,24 +27,19 @@ if __name__ == "__main__":
             x = 0
             addr = 0
             encbit = 0
-            
+        # ######################################################################################################              
             while byte:
                 x = x+1
                 bite = int.from_bytes(byte,"big")
-                
         # ######################################################################################################          
-                
                 if (x == 1):                # 
                     encbit = (119 - (2*bite))%255
                     if(60 <= bite <= 127):
                         encbit = encbit +1
                     if(188 <= bite <= 255):
                         encbit = encbit +1
-                    
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
         # ######################################################################################################             
-                    
                 if (x == 2):                            # 
                     encbit = (57+(2*bite))%255
                     if (bite == 99):
@@ -53,10 +48,7 @@ if __name__ == "__main__":
                         if(128 <= bite <= 226):
                             encbit = encbit +1
                         encbit = encbit -1
-                        
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
-                    
         # ######################################################################################################              
                 if (x == 3):            # 
                     encbit = (217-(8*bite))%255
@@ -78,8 +70,6 @@ if __name__ == "__main__":
                         encbit = encbit+1
                     if(251 <= bite <= 255):
                         encbit = encbit+1
-                    
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
         # ######################################################################################################                   
                 if(x ==4):                              #
@@ -92,10 +82,6 @@ if __name__ == "__main__":
                     if(bite>215):                               ## added in 0.2 Previously no case for 215
                         if(bite%8 > 1):
                             encbit = encbit +1
-                            
-                        
-                        
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
         # ######################################################################################################              
                 if(x==5):
@@ -110,11 +96,7 @@ if __name__ == "__main__":
                         encbit = encbit -1
                     if(bite == 218):
                         encbit = 255
-                       
-                    
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
-                
         # ######################################################################################################         
                 if(x==6):               # 
                     if(bite == 170):
@@ -126,10 +108,6 @@ if __name__ == "__main__":
                         if(bite>172):
                             if(bite%4 == 3):
                                 encbit = encbit-1
-                        
-                        
-                        
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
         # ######################################################################################################    
                 if(x==7):                   # 
@@ -137,13 +115,9 @@ if __name__ == "__main__":
                     if(bite >218):
                         if(bite%4 == 3):
                             encbit = encbit +1
-                            
-                            
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
         # ######################################################################################################  
                 if(x==8):                   # 
-                    
                     encbit = ((102-(bite*16))%255)
                     if(bite < 117):
                         if(bite%16>6):
@@ -151,20 +125,13 @@ if __name__ == "__main__":
                     if(bite > 116):
                         if(bite%16>5):
                             encbit = encbit+1
-                        
-                        
-                    #print(bite , x , hex(addr), encbit, encbit.to_bytes(1,"little"))
                     w.write(encbit.to_bytes(1,"little"))
-
-
-
-
-
-
         # ######################################################################################################  
-                
                 addr = addr +1
                 if ( x > 7):
                     x = 0
                 byte = f.read(1) 
                     
+
+if __name__ == "__main__":
+    undo_encoding()
