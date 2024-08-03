@@ -1,5 +1,6 @@
 import crcmod
 import os
+import easygui as eg
 
 def cks_do_total():
 
@@ -48,7 +49,7 @@ def cks_do_total():
         
         print("CKS_DOWNLOAD ", hex(Kcrc))
 
-    print(filename[-8])
+    print(filepath[-8])
 
 
 if __name__ == "__main__":

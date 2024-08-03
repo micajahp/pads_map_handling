@@ -3,8 +3,10 @@ import time
 import os
 import easygui as eg
 
-if __name__ == "__main__":
 
+
+
+def cks_do_internal():
     y = 58989       #### 58989 for 660 platform
                     #### 58402 for V4 platform
                     #### 60213 = eaf
@@ -76,4 +78,5 @@ if __name__ == "__main__":
                 byte = fi.read(2)
                 addr=addr+2
 
-        
+if __name__ == "__main__":
+    cks_do_internal()     
