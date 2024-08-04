@@ -1,0 +1,5 @@
+CKS_TOTAL_B:     from: 0x80020000 to: 0x803FFFFF Cks = 0000 -- B cks computed
+CKS_APPLICATION: from: 0x80080000 to: 0x803FFFFF Cks = 1F1E -- B cks computed
+CKS_SAFETY:      from: 0x80130000 to: 0x8013F30F Cks = 0000 -- B cks computed
+CKS_SAFETY_CAL:  from: 0x80380084 to: 0x8038054B Cks = 0000 -- B cks computed
+CKS_DOWNLOAD:    from: 0x80080000 to: 0x803FFFFF Cks = 3CE7 -- B cks computed

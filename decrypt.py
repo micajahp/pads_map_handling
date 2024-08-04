@@ -12,7 +12,7 @@ def undo_encoding():
     _files = []
     _folder = os.listdir('./')
     for fi in _folder:
-        if os.path.isfile(fi) and 'bIn' in fi:
+        if os.path.isfile(fi) and ('bIn' in fi or 'bin' in fi):
             _files.append(fi)
 
     if len(_files) > 1:
