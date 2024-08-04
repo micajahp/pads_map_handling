@@ -3,7 +3,7 @@ encoding type only works with lightly modified versions of advanced diagnostic s
 unmodified software require file encryption or signing of firmware, requiring keys which will not listed publicly</br></br>
 
 Must maintain an un edited decrypted resource map file for checksum auth</br>
-I did not get actual ranges for the internal checksum, </br>
+only approximate ranges for checksums used, allows range modifications for tables size</br>
 only around what is usually edited and use the stock checksum for offset 
 eg.</br>
     &emsp;&emsp;# working map file at 0x300046 - calculated_crc = adder_offset</br>
