@@ -5,7 +5,7 @@
     <fileversion>0.1</fileversion>
     <deftitle>RS660 HW001</deftitle>
     <description></description>
-    <author>Beetle, Beard, Pauldaytona for RS660</author>
+    <author>Beetle, Beard, Pauldaytona RSV4, modified for RS660 by micajahp</author>
     <BASEOFFSET offset="0" subtract="1" />
     <DEFAULTS datasizeinbits="16" sigdigits="1" outputtype="2" signed="1" lsbfirst="1" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x3FFFFF" regioncolor="0x0" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
