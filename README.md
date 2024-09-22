@@ -1,20 +1,21 @@
 encoding type only works with lightly modified versions of advanced diagnostic software with mapping database modifications</br>
 
-unmodified software require file encryption or signing of firmware, requiring keys which will not listed publicly</br></br>
+unmodified software require file encryption or signing of firmware, requiring keys which will not listed</br></br>
 
-Must maintain an un edited decrypted resource map file for checksum auth</br>
-only approximate ranges for checksums used, allows range modifications for tables size</br>
-only around what is usually edited and use the stock checksum for offset 
+User must maintain an un edited decrypted resource map file for checksum auth</br>
+This has the added benefit of forcing a reliable backup.
+Only approximate ranges for checksums used, allows range modifications for tables size and exact ranges are not allowed to be published</br>
+Rnages are only around what is usually edited and use the stock checksum for offset 
 eg.</br>
     &emsp;&emsp;# working map file at 0x300046 - calculated_crc = adder_offset</br>
-    &emsp;&emsp;# modded  map file calculated_crc + adder_offset = new calculated_crc </br>
+    &emsp;&emsp;# modded map file calculated_crc + adder_offset = new calculated_crc </br>
     &emsp;&emsp;# insert new calculated_crc at 0x300046 and inverse immediately after</br>
 </br>
 </br>
 </br>
 </br>
 </br>
-if you are not using pads, only Internal and Total checksums apply</br> 
+if you are not using pads, only Internal (x5) and Total checksums apply (x1)</br> 
 &emsp;&emsp;can bus communication harware required</br>
 XDF lists are incomplete and are only in working condition for some tables (use at risk)</br>
 </br></br>
