@@ -1,10 +1,13 @@
-##Version Decryption 0.2
+## Version Decryption 0.2
+## Latest version for public release
+## Functional Version
 ##
-##
-##
+### Each bit modified with standard algebraic math for ease of understanding
+### >> or ror type bit wise operation actually in use
+
+
 import easygui as eg
 import os
-
 
 
 def undo_encoding():
