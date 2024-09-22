@@ -1,21 +1,11 @@
 from tkinter import Tk, Label, Button
 import tkinter
 
-
-
-
-
-
-
-
-
 class ask():
 
     result = []
-    def __init__(self):
-        
-        
-        
+    def __init__(self): 
+
         cards = [ask.D(),ask.R(),ask.C()]
 
         window = Tk()
@@ -33,28 +23,25 @@ class ask():
         Button3.grid(row = 4, column=2, padx = 55, pady = 50)
 
         window.mainloop()
-        
+
     
-
-
-
     def D():
     
         print("Decode")
         return 'Decode'
+
 
     def R():
     
         print("Reencode")
         return 'Re-encode'
 
+
     def C():
         
         print("Cancel")
         return 'Complete'
     
-
-
 
 if __name__ == '__main__':
     r = ask()
