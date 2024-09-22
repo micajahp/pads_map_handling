@@ -1,7 +1,12 @@
 ##Version Encryption 0.2
+## Latest version for public release
+## Functional version
 ##
 ##
-##
+### Each bit modified with standard algebraic math for ease of understanding
+### 
+### >> or ror type bit wise operation actually in use
+
 import os
 import easygui as eg
 
