@@ -1,6 +1,6 @@
 import CksTotal
 import CksInternal
-import decrypt
+import Decrypt
 import Reencrypt
 import gui
 
