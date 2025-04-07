@@ -7,3 +7,192 @@
 2025-04-06 21:54:14,094 - INFO - Moveto
 2025-04-06 21:54:59,752 - INFO - Moveto
 2025-04-06 21:56:43,115 - INFO - Moveto
+2025-04-07 12:23:09,531 - INFO - ['D']
+2025-04-07 12:23:09,532 - INFO - D
+2025-04-07 12:23:09,532 - INFO - Prepare config file and allow editing
+2025-04-07 12:24:31,699 - INFO - ['D']
+2025-04-07 12:24:31,700 - INFO - D
+2025-04-07 12:24:31,700 - INFO - Prepare config file and allow editing
+2025-04-07 12:25:15,612 - INFO - ['D']
+2025-04-07 12:25:15,613 - INFO - D
+2025-04-07 12:25:15,613 - INFO - Prepare config file and allow editing
+2025-04-07 12:25:15,619 - INFO - map ready for editing
+2025-04-07 12:25:22,606 - INFO - ['D']
+2025-04-07 12:25:22,607 - INFO - D
+2025-04-07 12:25:22,607 - INFO - Prepare config file and allow editing
+2025-04-07 12:25:22,612 - INFO - map ready for editing
+2025-04-07 12:25:23,603 - INFO - ['D', 'C']
+2025-04-07 12:25:23,604 - INFO - C
+2025-04-07 12:42:00,284 - INFO - ['D']
+2025-04-07 12:42:00,285 - INFO - D
+2025-04-07 12:42:00,285 - INFO - Prepare config file and allow editing
+2025-04-07 12:42:00,288 - INFO - Decrypt Failed
+2025-04-07 12:42:00,290 - INFO - CKS Config Failed
+2025-04-07 12:42:20,188 - INFO - ['D']
+2025-04-07 12:42:20,188 - INFO - D
+2025-04-07 12:42:20,189 - INFO - Prepare config file and allow editing
+2025-04-07 12:42:20,191 - INFO - Decrypt Failed
+2025-04-07 12:42:20,193 - INFO - CKS Config Failed
+2025-04-07 12:42:44,306 - INFO - ['D']
+2025-04-07 12:42:44,307 - INFO - D
+2025-04-07 12:42:44,307 - INFO - Prepare config file and allow editing
+2025-04-07 12:42:44,309 - INFO - Decrypt Failed
+2025-04-07 12:42:44,310 - INFO - CKS Config Failed
+2025-04-07 12:42:52,183 - INFO - ['D']
+2025-04-07 12:42:52,184 - INFO - D
+2025-04-07 12:42:52,184 - INFO - Prepare config file and allow editing
+2025-04-07 12:42:52,186 - INFO - Decrypt Failed
+2025-04-07 12:42:52,189 - INFO - CKS Config Failed
+2025-04-07 12:43:01,644 - INFO - ['D']
+2025-04-07 12:43:01,644 - INFO - D
+2025-04-07 12:43:01,645 - INFO - Prepare config file and allow editing
+2025-04-07 12:43:01,647 - INFO - Decrypt Failed
+2025-04-07 12:43:01,650 - INFO - CKS Config Failed
+2025-04-07 12:43:03,100 - INFO - ['D', 'C']
+2025-04-07 12:43:03,100 - INFO - C
+2025-04-07 12:46:22,692 - INFO - ['D']
+2025-04-07 12:46:22,692 - INFO - D
+2025-04-07 12:46:22,693 - INFO - Prepare config file and allow editing
+2025-04-07 12:46:22,695 - INFO - Decrypt Failed
+2025-04-07 12:46:22,698 - INFO - CKS Config Failed
+2025-04-07 12:47:22,719 - INFO - ['D']
+2025-04-07 12:47:22,720 - INFO - D
+2025-04-07 12:47:22,720 - INFO - Prepare config file and allow editing
+2025-04-07 12:47:22,723 - INFO - Decrypt Failed
+2025-04-07 12:47:22,724 - INFO - CKS Config Failed
+2025-04-07 12:47:27,975 - INFO - ['D']
+2025-04-07 12:47:27,975 - INFO - D
+2025-04-07 12:47:27,976 - INFO - Prepare config file and allow editing
+2025-04-07 12:47:27,978 - INFO - Decrypt Failed
+2025-04-07 12:47:27,981 - INFO - CKS Config Failed
+2025-04-07 12:47:29,576 - INFO - ['D', 'C']
+2025-04-07 12:47:29,577 - INFO - C
+2025-04-07 12:54:19,533 - INFO - ['C']
+2025-04-07 12:54:19,534 - INFO - C
+2025-04-07 12:55:15,396 - INFO - ['D']
+2025-04-07 12:55:15,396 - INFO - D
+2025-04-07 12:55:15,397 - INFO - Prepare config file and allow editing
+2025-04-07 12:55:15,399 - INFO - Decrypt Failed
+2025-04-07 12:55:15,401 - INFO - CKS Config Failed
+2025-04-07 12:55:19,620 - INFO - ['D']
+2025-04-07 12:55:19,621 - INFO - D
+2025-04-07 12:55:19,622 - INFO - Prepare config file and allow editing
+2025-04-07 12:55:19,624 - INFO - Decrypt Failed
+2025-04-07 12:55:19,626 - INFO - CKS Config Failed
+2025-04-07 12:55:20,632 - INFO - ['D', 'C']
+2025-04-07 12:55:20,633 - INFO - C
+2025-04-07 12:57:35,058 - INFO - init
+2025-04-07 12:57:36,347 - INFO - ['D']
+2025-04-07 12:57:36,347 - INFO - D
+2025-04-07 12:57:36,348 - INFO - Prepare config file and allow editing
+2025-04-07 12:57:36,350 - INFO - Decrypt Failed
+2025-04-07 12:57:36,351 - INFO - CKS Config Failed
+2025-04-07 12:57:36,352 - INFO - D
+2025-04-07 12:57:39,751 - INFO - ['D', 'C']
+2025-04-07 12:57:39,752 - INFO - C
+2025-04-07 12:57:39,753 - INFO - C
+2025-04-07 12:57:41,228 - INFO - ['D', 'C', 'C']
+2025-04-07 12:57:41,228 - INFO - C
+2025-04-07 12:57:41,229 - INFO - C
+2025-04-07 12:57:42,698 - INFO - ['D', 'C', 'C']
+2025-04-07 12:57:42,699 - INFO - C
+2025-04-07 12:57:42,699 - INFO - C
+2025-04-07 12:58:06,328 - INFO - init
+2025-04-07 12:58:07,673 - INFO - []
+2025-04-07 12:59:23,756 - INFO - init
+2025-04-07 12:59:25,465 - INFO - ['C']
+2025-04-07 12:59:39,827 - INFO - init
+2025-04-07 12:59:41,390 - INFO - Prepare config file and allow editing
+2025-04-07 12:59:41,393 - INFO - Decrypt Failed
+2025-04-07 12:59:41,394 - INFO - CKS Config Failed
+2025-04-07 12:59:41,396 - INFO - D
+2025-04-07 12:59:43,375 - INFO - Editing complete
+calculate check sums and re-encode
+2025-04-07 12:59:43,378 - INFO - CKS Solve Failed
+2025-04-07 12:59:43,380 - INFO - File Checksum Calculation Failed
+2025-04-07 12:59:43,383 - INFO - File Re-encoding Failed
+2025-04-07 13:00:05,263 - INFO - init
+2025-04-07 13:00:06,678 - INFO - Prepare config file and allow editing
+2025-04-07 13:00:06,680 - INFO - Decrypt Failed
+2025-04-07 13:00:06,684 - INFO - CKS Config Failed
+2025-04-07 13:00:06,684 - INFO - D
+2025-04-07 13:00:07,840 - INFO - Editing complete
+calculate check sums and re-encode
+2025-04-07 13:00:07,842 - INFO - CKS Solve Failed
+2025-04-07 13:00:07,844 - INFO - File Checksum Calculation Failed
+2025-04-07 13:00:07,845 - INFO - File Re-encoding Failed
+2025-04-07 13:00:07,847 - INFO - Moveto
+2025-04-07 13:00:07,847 - INFO - path already exists, moving on
+2025-04-07 13:04:24,831 - INFO - init
+2025-04-07 13:04:25,896 - INFO - Prepare config file and allow editing
+2025-04-07 13:04:25,900 - INFO - Decrypt Failed
+2025-04-07 13:04:25,903 - INFO - CKS Config Failed
+2025-04-07 13:04:25,904 - INFO - D
+2025-04-07 13:04:26,936 - INFO - Editing complete	calculate check sums and re-encode
+2025-04-07 13:04:26,939 - INFO - CKS Solve Failed
+2025-04-07 13:04:26,941 - INFO - File Checksum Calculation Failed
+2025-04-07 13:04:26,942 - INFO - File Re-encoding Failed
+2025-04-07 13:04:26,944 - INFO - Moveto
+2025-04-07 13:04:26,944 - INFO - path already exists, moving on
+2025-04-07 13:04:26,945 - INFO - path already exists, moving on
+2025-04-07 13:04:26,945 - INFO - path already exists, moving on
+2025-04-07 13:04:26,946 - INFO - path already exists, moving on
+2025-04-07 13:04:26,946 - INFO - path already exists, moving on
+2025-04-07 13:04:26,947 - INFO - path already exists, moving on
+2025-04-07 13:04:57,447 - INFO - init
+2025-04-07 13:04:58,241 - INFO - Editing complete	calculate check sums and re-encode
+2025-04-07 13:04:58,243 - INFO - CKS Solve Failed
+2025-04-07 13:04:58,246 - INFO - File Checksum Calculation Failed
+2025-04-07 13:04:58,248 - INFO - File Re-encoding Failed
+2025-04-07 13:04:58,249 - INFO - Moveto
+2025-04-07 13:04:58,249 - INFO - path already exists, moving on
+2025-04-07 13:04:58,249 - INFO - path already exists, moving on
+2025-04-07 13:04:58,250 - INFO - path already exists, moving on
+2025-04-07 13:04:58,250 - INFO - path already exists, moving on
+2025-04-07 13:04:58,250 - INFO - path already exists, moving on
+2025-04-07 13:04:58,251 - INFO - path already exists, moving on
+2025-04-07 13:04:58,253 - INFO - No supplied file
+2025-04-07 13:04:58,253 - INFO - R
+2025-04-07 13:05:00,166 - INFO - Editing complete	calculate check sums and re-encode
+2025-04-07 13:05:00,168 - INFO - CKS Solve Failed
+2025-04-07 13:05:00,171 - INFO - File Checksum Calculation Failed
+2025-04-07 13:05:00,173 - INFO - File Re-encoding Failed
+2025-04-07 13:05:00,173 - INFO - Moveto
+2025-04-07 13:05:00,174 - INFO - path already exists, moving on
+2025-04-07 13:05:00,174 - INFO - path already exists, moving on
+2025-04-07 13:05:00,175 - INFO - path already exists, moving on
+2025-04-07 13:05:00,175 - INFO - path already exists, moving on
+2025-04-07 13:05:00,175 - INFO - path already exists, moving on
+2025-04-07 13:05:00,175 - INFO - path already exists, moving on
+2025-04-07 13:05:00,179 - INFO - No supplied file
+2025-04-07 13:05:00,179 - INFO - R
+2025-04-07 13:05:01,251 - INFO - Editing complete	calculate check sums and re-encode
+2025-04-07 13:05:01,253 - INFO - CKS Solve Failed
+2025-04-07 13:05:01,255 - INFO - File Checksum Calculation Failed
+2025-04-07 13:05:01,257 - INFO - File Re-encoding Failed
+2025-04-07 13:05:01,257 - INFO - Moveto
+2025-04-07 13:05:01,258 - INFO - path already exists, moving on
+2025-04-07 13:05:01,258 - INFO - path already exists, moving on
+2025-04-07 13:05:01,258 - INFO - path already exists, moving on
+2025-04-07 13:05:01,259 - INFO - path already exists, moving on
+2025-04-07 13:05:01,259 - INFO - path already exists, moving on
+2025-04-07 13:05:01,259 - INFO - path already exists, moving on
+2025-04-07 13:05:01,262 - INFO - No supplied file
+2025-04-07 13:05:01,262 - INFO - R
+2025-04-07 13:05:02,308 - INFO - Prepare config file and allow editing
+2025-04-07 13:05:02,311 - INFO - Decrypt Failed
+2025-04-07 13:05:02,313 - INFO - CKS Config Failed
+2025-04-07 13:05:02,313 - INFO - D
+2025-04-07 13:05:03,565 - INFO - Editing complete	calculate check sums and re-encode
+2025-04-07 13:05:03,568 - INFO - CKS Solve Failed
+2025-04-07 13:05:03,570 - INFO - File Checksum Calculation Failed
+2025-04-07 13:05:03,572 - INFO - File Re-encoding Failed
+2025-04-07 13:05:03,572 - INFO - Moveto
+2025-04-07 13:05:03,572 - INFO - path already exists, moving on
+2025-04-07 13:05:03,573 - INFO - path already exists, moving on
+2025-04-07 13:05:03,573 - INFO - path already exists, moving on
+2025-04-07 13:05:03,574 - INFO - path already exists, moving on
+2025-04-07 13:05:03,575 - INFO - path already exists, moving on
+2025-04-07 13:05:03,575 - INFO - path already exists, moving on
+2025-04-07 13:05:03,576 - INFO - No supplied file
+2025-04-07 13:05:03,576 - INFO - R

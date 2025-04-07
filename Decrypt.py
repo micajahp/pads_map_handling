@@ -21,6 +21,9 @@ def undo_encoding():
     if len(_files) > 1:
         filepath = eg.choicebox("Select File for Decryption","Decrypt",_files)
     else:
+        if len(_files) == 0:
+            print("No supplied file")
+            return 0
         filepath = _files[0]
 
     print(filepath)
@@ -134,6 +137,7 @@ def undo_encoding():
                 if ( x > 7):
                     x = 0
                 byte = f.read(1) 
+    return 1
                     
 
 if __name__ == "__main__":

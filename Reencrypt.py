@@ -21,6 +21,9 @@ def redo_encoding():
     if len(_files) > 1:
         filepath = eg.choicebox("","Re-encrypt",_files)
     else:
+        if len(_files) == 0:
+            print("No supplied file")
+            return 0
         filepath = _files[0]
 
     with open(f"./{filepath}", "rb") as f:
@@ -114,6 +117,7 @@ def redo_encoding():
                 if ( x > 7):
                     x = 0
                 byte = f.read(1) 
+    return 1
                 
 if __name__ == "__main__":
     redo_encoding()

@@ -28,6 +28,9 @@ def cks_do_internal():
     if len(_files) > 1:
         filepath = eg.choicebox("","",_files)
     else:
+        if len(_files) == 0:
+            print("No supplied file")
+            return 0
         filepath = _files[0]
 
 
@@ -136,6 +139,7 @@ def cks_do_internal():
                 byte = fi.read(2)
                 addr=addr+2
     print("Internal CKS complete")
+    return 1
 
 if __name__ == "__main__":
     cks_do_internal()     

@@ -13,6 +13,9 @@ def cks_do_total():
     if len(_files) > 1:
         filepath = eg.choicebox("","",_files)
     else:
+        if len(_files) == 0:
+            print("No supplied file")
+            return 0
         filepath = _files[0]
 
     B = 0
@@ -82,6 +85,7 @@ def cks_do_total():
     with open(f"{filepath[:-7]}.cks",'w') as w:
         for i in writetofile:
             w.write(i)
+    return 1
 
 if __name__ == "__main__":
     cks_do_total()
