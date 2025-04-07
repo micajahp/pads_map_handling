@@ -15,11 +15,11 @@ def undo_encoding():
     _files = []
     _folder = os.listdir('./')
     for fi in _folder:
-        if os.path.isfile(fi) and ('bIn' in fi or 'bin' in fi):
+        if os.path.isfile(fi) and ('bIn' in fi or 'bin' in fi) and "DEC" not in fi and 'CKS' not in fi:
             _files.append(fi)
 
     if len(_files) > 1:
-        filepath = eg.choicebox("","",_files)
+        filepath = eg.choicebox("Select File for Decryption","Decrypt",_files)
     else:
         filepath = _files[0]
 

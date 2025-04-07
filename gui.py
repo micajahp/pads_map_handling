@@ -1,12 +1,12 @@
 from tkinter import Tk, Label, Button
-import tkinter
+
 
 class ask():
 
     result = []
     def __init__(self): 
 
-        cards = [ask.D(),ask.R(),ask.C()]
+        cards = [ask.D(), ask.R(), ask.C()]
 
         window = Tk()
         Label(window, text="Ask?", bg = '#D0D0D0').grid(row = 0, column=1)

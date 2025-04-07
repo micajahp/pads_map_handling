@@ -1,4 +1,4 @@
-##Version Encryption 0.2
+## Version Encoding 0.2
 ## Latest version for public release
 ## Functional version
 ##
@@ -19,7 +19,7 @@ def redo_encoding():
             _files.append(fi)
 
     if len(_files) > 1:
-        filepath = eg.choicebox("","",_files)
+        filepath = eg.choicebox("","Re-encrypt",_files)
     else:
         filepath = _files[0]
 

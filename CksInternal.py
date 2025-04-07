@@ -4,20 +4,25 @@ import easygui as eg
 
 
 def cks_do_internal():
-    
-
-
+    # typecheck = eg.choicebox("Select Platfom", "Platform Checksum Selsction", ['660', 'V4', '457'])
+    defaults = {
+        '660': 58989,
+        'V4': 58402,
+        '457': 4969,
+    }
+    # y = defaults[typecheck]
+    '''
     y = 58989       #### 58989 for 660 platform
                     #### 58402 for V4 platform
                     #### 60213 = eaf
-
+    '''
     B = 3145728 
     E = 3899999
 
     _files = []
     _folder = os.listdir('./')
     for fi in _folder:
-        if os.path.isfile(fi) and 'DEC' in fi:
+        if os.path.isfile(fi) and 'DEC' in fi and "DECDEC" not in fi:
             _files.append(fi)
 
     if len(_files) > 1:
@@ -87,7 +92,7 @@ def cks_do_internal():
         Eabb = Eab^65535
         
         if noconfig == 0:
-            print("Internal CKS at 0x300047  :  ",hex(Eab), " ", hex(Eab^65535))
+            print("Internal CKS at 0x300047  :  ", hex(Eab), " ", hex(Eab^65535))
             with open(f"{filepath[:-7]}.config", 'a+') as w:
                 w.write(f"?{str(hex(Eab))[2:].upper()}")
     if noconfig == 1:
