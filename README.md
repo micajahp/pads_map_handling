@@ -15,7 +15,7 @@ eg.</br>
 </br>
 </br>
 </br>
-if you are not using pads, only Internal (x5) and Total checksums apply (x1)</br> 
+if you are not using pads, only Internal (x5) and Total checksums (x1) apply</br> 
 &emsp;&emsp;can bus communication harware required</br>
 XDF lists are incomplete and are only in working condition for some tables (use at risk)</br>
 </br></br>
